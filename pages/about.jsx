@@ -1,4 +1,5 @@
 import Header from "../components/header";
+import Image from "next/image";
 
 const About = () => {
 	return (
@@ -34,7 +35,7 @@ const About = () => {
 								</li>
 							</ul>
 						</div>
-						<div className="">
+						<div className="mb-10">
 							<div className="my-5 text-6xl font-semibold tracking-wide text-emerald-600">MISI</div>
 							<ul className="px-10 text-xl font-light text-left list-disc">
 								<li>Mengutamakan Keselamatan</li>
@@ -44,6 +45,20 @@ const About = () => {
 								<li>Mengembangkan Bidang Komunikasi dan Prasarana di Indonesia</li>
 								<li>Menjadikan Pelanggan Dan Mitra kerja sebagai Patner Perusahaan</li>
 							</ul>
+						</div>
+						<div className="mb-10">
+							<div className="my-5 text-4xl font-semibold tracking-wide lg:text-6xl text-emerald-600">
+								Struktur Organisasi
+							</div>
+							<div className="px-10">
+								<Image
+									src="/images/struktur-organisasi.png"
+									layout="responsive"
+									width={650}
+									height={500}
+									alt="Struktur Organisasi"
+								/>
+							</div>
 						</div>
 					</div>
 				</div>

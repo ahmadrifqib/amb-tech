@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<div>
 			<Head>
-				<title>AMB Technology</title>
+				<title>AMB Multi Teknik</title>
 				<meta
 					name="description"
 					content="PT Agrindo Mercu Buana adalah perusahaan yang bergerak di bidang telekomunikasi, kami menyediakan solusi lengkap bagi perusahaan dan perorangan."
@@ -96,7 +96,7 @@ function MyApp({ Component, pageProps }) {
 						<div className="flex flex-col space-y-8 lg:items-center lg:flex-row lg:justify-between">
 							<div className="lg:w-2/5 md:w-2/3">
 								<div className="flex flex-col space-y-6 text-white mt-14">
-									<div className="text-xl font-normal ">PT AGRINDO MERCU BUANA</div>
+									<div className="text-2xl font-bold ">PT AMB Multi Teknik</div>
 									<div>
 										Central Business District Bidex Blok C No. 11-12 Jl. Pahlawan Seribu BSD City
 										Serpong, Kelurahan Lengkong Gudang, Kecamatan Serpong, Kota Tangerang Selatan,
@@ -107,8 +107,8 @@ function MyApp({ Component, pageProps }) {
 											<td>Email</td>
 											<td>:</td>
 											<td>
-												<a href="mailto:ibrahim.saleh@ambindonesia.co.id">
-													ibrahim.saleh@ambindonesia.co.id
+												<a href="mailto:admin@tech.ambindonesia.co.id">
+													admin@tech.ambindonesia.co.id
 												</a>
 											</td>
 										</tr>
@@ -148,7 +148,7 @@ function MyApp({ Component, pageProps }) {
 							</div>
 						</div>
 						<div className="mt-10 text-base font-normal text-center text-light-3">
-							&copy; {new Date().getFullYear()} PT. AGRINDO MERCU BUANA. All rights reserved.
+							&copy; {new Date().getFullYear()} PT. AMB Multi Teknik. All rights reserved.
 						</div>
 					</div>
 				</footer>

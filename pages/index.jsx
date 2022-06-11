@@ -55,8 +55,8 @@ export default function Home() {
 			</div>
 			<div className="flex flex-col-reverse items-stretch justify-center w-auto py-20 space-x-4 tracking-wide md:py-24 lg:py-36 lg:flex-row">
 				<div className="grid content-center gap-5 p-5 mx-6 lg:mx-0 lg:w-3/5">
-					<div className="text-6xl font-semibold tracking-wide capitalize text-stone-800">
-						tentang AMB Technology
+					<div className="text-6xl font-semibold tracking-normal capitalize text-stone-800">
+						tentang PT AMB Multi Teknik
 					</div>
 					<hr className="h-2 rounded-full bg-emerald-600 text-emerald-600 w-96" />
 					<div className="text-4xl leading-tight text-stone-700/90">
